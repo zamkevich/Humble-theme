@@ -12,5 +12,5 @@ Paste code from <a href="conf.json">conf.json<a> to  extension settings:
  margin-right:40px; margin-top:10px; margin-bottom:60px; display:block">
 
 #### Preview
- <img src="preview.png" alt="selected code" title="select code" style="max-width:100%; margin-top:10px; margin-bottom:60px; display:block">
+ <img src="preview_2.png" alt="selected code" title="select code" style="max-width:100%; margin-top:10px; margin-bottom:60px; display:block">
 
