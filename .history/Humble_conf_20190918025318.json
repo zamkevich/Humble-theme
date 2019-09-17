@@ -1,0 +1,124 @@
+#main a {
+  font-family: "helvetica";
+  font-weight: 300;
+  font-size: 13.8px;
+  text-rendering: geometricPrecision !important;
+  color: black;
+  border: 1px solid #ffffff00;
+  border-radius: 4px;
+  padding: 0 10px 1px 10px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+#main a:hover{
+  background-color: #ffffff00 !important;
+  box-shadow: 0 8px 12px -6px #0037ff9e;
+/*     border-bottom: 1px solid #0037ff00; */
+  border-bottom: 1px solid #fff !important;
+  border-top-color: #fff !important;
+  border-left-color: #fff !important;
+  border-right-color: #fff !important;
+}
+
+
+.column {
+  padding-right: 20px;
+}
+
+.column > ul > li > a {
+  font-weight: 600 !important;
+  font-size: 11.8px !important;
+  text-rendering: geometricPrecision !important;
+
+}
+
+
+.column .null a.folder .icon {
+  display: none !important;
+}
+
+.column .null a.folder{
+  font-weight: 600 !important;
+  font-size: 11.8px !important;
+  text-rendering: geometricPrecision !important;
+}
+
+.column .null a.folder {
+ margin-left: -16px
+}
+
+.column .null a.folder:before {
+  content: "";
+  height: 4px;
+  width: 4px;
+  margin-bottom: 2px;
+  border-radius: 100%;
+  background-color: #0069ff;  
+  display: inline-block;
+  margin-right: 10px;
+  border-color: #0069ff;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.column .null a.folder.open:before {
+  border-color: #0069ff;
+  background-color: #ffffff; 
+  
+}
+
+
+.column .null a:hover.folder:before{
+  border-color: #ff0000;
+  background-color: #ff0000; 
+}
+
+.column:first-child > ul > li > div {
+  padding-left: 24px !important;
+}
+
+.column:not(:first-child) > ul > li > div {
+/*     padding-left: 0px !important; */
+}
+
+#main > .column:not(:first-child) > ul > li > a {
+  position: relative;
+}
+
+#main > .column:not(:first-child) > ul > li > a:hover,
+.folder:hover {
+  
+  box-shadow: none !important;
+  border-color: #fff0 !important;
+}
+
+#main > .column:not(:first-child) > ul > li > a:after {
+
+  content: "";
+  height: 1px;
+  width: calc( 100% - 20px );
+  background-color: #0037ff61;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+}
+
+
+.column:not(:first-child) > ul > li > a > .icon {
+  display: none !important;
+}
+
+.column > ul > li > div {
+  padding-left: 0 !important;
+}
+
+ul > li > .null .null {
+  padding-left: 0 !important;
+}
+
+
+
+ul > li > .null .null {
+  padding-left: 0 !important;
+}
