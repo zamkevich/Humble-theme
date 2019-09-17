@@ -7,7 +7,8 @@
 
 #### How to use
 Paste code from <a href="conf.json">conf.json<a> to  extension settings:
- <img src="menu.png" alt="selected code" title="select code" style="max-width:100%; 
+
+<img src="menu.png" alt="selected code" title="select code" style="max-width:100%; 
  margin-right:40px; margin-top:10px; margin-bottom:60px; display:block">
 
 #### Preview
